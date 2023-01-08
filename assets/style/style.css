@@ -1,0 +1,57 @@
+:root {
+   font-size: 14px;
+   font-family: "Times New Roman", Times, serif;
+}
+h1 {
+   text-align: center;
+}
+
+.wrapper {
+   display: flex;
+   height: 50vh;
+   border: 6px double rgb(83, 188, 223);
+   max-width: 800px;
+   margin: auto;
+}
+
+button {
+   background-color: white;
+
+   border: solid 3px rgb(83, 188, 223);
+   margin: auto;
+   margin-left: 5px;
+   margin-bottom: 10px;
+   padding: 10px;
+}
+
+button:hover {
+   color: white;
+   background-color: rgb(83, 188, 223);
+}
+button:focus {
+   color: white;
+   background-color: rgb(83, 188, 223);
+}
+.wrapperBtn {
+   max-width: 500px;
+   margin: auto;
+}
+
+.wrapper > div {
+   color: rgb(34, 26, 155);
+   background-color: rgb(83, 188, 223);
+
+   font-size: 30px;
+   font-weight: 900;
+   text-align: center;
+
+   height: 98%;
+   min-width: 5%;
+   margin: 3px;
+   margin-left: 5px;
+   border: solid 2px rgb(83, 188, 223);
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
